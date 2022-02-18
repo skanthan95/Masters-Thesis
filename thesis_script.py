@@ -271,9 +271,9 @@ def word_plot(adj_list):
 
 def preceding_word(data, keyword_list):
   '''
-  Calculates proportion of adjectives for each keyword
-  in a given keyword list (compared to other parts of speech), 
-  as well as the numerator and denominator for that proportion
+  Compiles words preceding keywords of interest in keyword_list
+  and performs NER on them. Then calculates proportion of adjectives for each keyword
+  (compared to other parts of speech),  as well as the numerator and denominator for that proportion
   '''
     data = data[data['normalizedWord'].str.contains('[A-Za-z]', na=False)]  
     data['tupes'] = list(zip(data.originalWord, data.pos))
