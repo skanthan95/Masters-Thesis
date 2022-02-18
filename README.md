@@ -2,7 +2,7 @@
 
 ### Shared Poetic and Narrative Diction in Indo-European Epics: A Computational Analysis
 
-#### Code (thesis.py) can be found above
+#### Code (thesis_script.py) can be found above
 
 In this work, I investigate the possibility of a shared poetic and narrative diction distinct
 to epic within battle scenes in two primary Indo-European epics. I used
